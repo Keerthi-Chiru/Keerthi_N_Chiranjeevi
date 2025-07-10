@@ -1,24 +1,3 @@
-// const a = Number(prompt("Please enter enter a value for a:"));
-// const b = Number(prompt("Please enter enter a value for b:"));
-// const operation = prompt("Please enter the type of operation");
-// let res;
-
-// switch(operation){
-//     case "+":
-//         res = a+b;
-//         break;
-//     case "-":
-//         res = a-b;
-//         break;
-//     case "*":
-//         res = a*b;
-//         break;
-//     case "/":
-//         res = a/b;
-//         break
-// }
-
-// console.log(res);
 let res;
 class Calculator{
     constructor(a, b, operation){
