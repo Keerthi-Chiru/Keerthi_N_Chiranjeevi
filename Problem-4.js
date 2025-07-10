@@ -1,6 +1,6 @@
 
 const inputString = prompt("Enter the input array: ");
-const cleanString = inputString.replace('[', '').replace(']', '');  // remove brackets
+const cleanString = inputString.replace('[', '').replace(']', '');  
 const input = cleanString.split(',').map(num => Number(num.trim()));
 
 const result = {};
