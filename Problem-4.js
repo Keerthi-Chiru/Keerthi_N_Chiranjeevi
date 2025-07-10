@@ -1,5 +1,8 @@
 
-const input = [1,2,8,9,12,46,76,82,15,20,30];
+const inputString = prompt("Enter the input array: ");
+const cleanString = inputString.replace('[', '').replace(']', '');  // remove brackets
+const input = cleanString.split(',').map(num => Number(num.trim()));
+
 const result = {};
 
 for (let i = 1; i <= 9; i++) {
