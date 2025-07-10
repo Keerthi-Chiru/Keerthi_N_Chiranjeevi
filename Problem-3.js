@@ -10,4 +10,6 @@ const printres =  (x) => {
 
 if(x%2 == 0){
      printres(x-1);
+}else{
+    printres(x);
 }
